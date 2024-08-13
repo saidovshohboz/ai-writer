@@ -22,6 +22,6 @@ export default tseslint.config({
       'warn',
       { allowConstantExport: true },
     ],
-    'max-len': ['warn', { code: 100, ignoreComments: true, ignoreUrls: true }],
+    'max-len': ['warn', { code: 250, ignoreComments: true, ignoreUrls: true }],
   },
 });
